@@ -2,10 +2,18 @@
   "name": "google-search-cli",
   "version": "0.0.1",
   "description": "Launch Google Search in the default browser from your CLI",
-  "main": "index.js",
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
   "bin": {
     "google": "index.js"
   },
