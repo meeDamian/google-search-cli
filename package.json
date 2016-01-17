@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "google": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/chester1000/google-search-cli.git"
@@ -23,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/chester1000/google-search-cli/issues"
   },
-  "homepage": "https://github.com/chester1000/google-search-cli#readme",
-  "devDependencies": {
-    "coffee-script": "^1.10.0"
-  }
+  "homepage": "https://github.com/chester1000/google-search-cli#readme"
 }
