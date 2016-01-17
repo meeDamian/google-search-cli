@@ -1,0 +1,30 @@
+{
+  "name": "google-search-cli",
+  "version": "0.0.1",
+  "description": "Launch Google Search in the default browser from your CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chester1000/google-search-cli.git"
+  },
+  "keywords": [
+    "google",
+    "search",
+    "nodejs",
+    "browser",
+    "cli",
+    "utility"
+  ],
+  "author": "Damian Mee <mee.damian@gmail.com> (https://meedamian.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chester1000/google-search-cli/issues"
+  },
+  "homepage": "https://github.com/chester1000/google-search-cli#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
