@@ -1,6 +1,6 @@
 {
   "name": "google-search-cli",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "CLI tool to launch Google Search in the default browser",
   "engines": {
     "node": ">=5.0.0"
