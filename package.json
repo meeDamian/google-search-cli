@@ -11,7 +11,7 @@
     "win32"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "eslint . && mocha"
   },
   "preferGlobal": true,
   "bin": {
@@ -37,6 +37,7 @@
   "homepage": "https://github.com/chester1000/google-search-cli#readme",
   "devDependencies": {
     "chai": "^3.4.1",
+    "eslint": "^1.10.3",
     "mocha": "^2.3.4"
   }
 }
