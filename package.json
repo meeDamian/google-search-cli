@@ -15,7 +15,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "google": "index.es6"
+    "google": "index.js"
   },
   "repository": {
     "type": "git",

@@ -2,10 +2,10 @@
 
 const should    = require('chai').should();
 
-const google    = require('../lib/google.es6');
+const google    = require('../lib/google.js');
 const execMock  = (fn) => (param) => fn(param);
 
-let ex = (q) => ' (ex. `$ google ' + q + '`)'
+let ex = (q) => ' (ex. `$ google ' + q + '`)';
 
 describe('google-search-cli', () => {
 
@@ -112,7 +112,7 @@ describe('google-search-cli', () => {
 
     before(() => {
       tmpConsoleInfo = console.info;
-      console.info = () => {}
+      console.info = () => {};
     });
     after(() => console.info = tmpConsoleInfo);
 
@@ -136,7 +136,7 @@ describe('google-search-cli', () => {
         should.exist(str);
         str.should.be.a('string');
         str.should.match(/^[\w\-]{4,8} https?:\/\/(www\.)?google\.com$/i);
-        done()
+        done();
       });
 
       google.search('linux', fn, []);
@@ -148,7 +148,7 @@ describe('google-search-cli', () => {
         should.exist(str);
         str.should.be.a('string');
         str.should.match(/^[\w\-]{4,8} https?:\/\/(www\.)?google\.com\/search\?q=[\w+]*$/i);
-        done()
+        done();
       });
 
       google.search('win32', fn, ['random query']);
