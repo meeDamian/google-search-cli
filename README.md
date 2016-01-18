@@ -1,4 +1,5 @@
 # google-search-cli
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/e9aafe00c52f45cf978fce3de2f638ad)](https://www.codacy.com/app/meeDamian/google-search-cli) 
 
 CLI tool to launch Google Search in the default browser
 
