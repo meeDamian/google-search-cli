@@ -1,5 +1,5 @@
-#!/usr/bin/env node --harmony_destructuring
-(function({exec}, os) {
+#!/usr/bin/env node
+(function(exec, os) {
   'use strict';
 
   let cmd = os.platform() === 'darwin' ? 'open'
@@ -44,4 +44,4 @@
       .map((s) => s.replace(/ /g, '+'))
       .join('+')
   ].join(''));
-})(require('child_process'), require('os'));
+})(require('child_process').exec, require('os'));
