@@ -1,5 +1,5 @@
 # google-search-cli
-[![Build Status](https://travis-ci.org/chester1000/google-search-cli.svg?branch=master)](https://travis-ci.org/chester1000/google-search-cli)
+[![Build Status](https://travis-ci.org/chester1000/google-search-cli.svg?branch=master)](https://travis-ci.org/chester1000/google-search-cli) [![Codacy Badge](https://api.codacy.com/project/badge/grade/e9aafe00c52f45cf978fce3de2f638ad)](https://www.codacy.com/app/meeDamian/google-search-cli)
 
 CLI tool to launch Google Search in the default browser
 
