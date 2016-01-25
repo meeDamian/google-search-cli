@@ -1,13 +1,12 @@
 #!/usr/bin/env node --harmony_rest_parameters
-(function() {
-  'use strict';
 
-  const google = require('./lib/google.js');
+'use strict';
 
-  if (require.main === module) {
-    google(process.argv.slice(2));
-    return;
-  }
+const google = require('./lib/google.js');
 
-  module.exports = exports = (...query) => google(query);
-}());
+if (require.main === module) {
+	google(process.argv.slice(2));
+	process.exit();
+}
+
+module.exports = exports = (...query) => google(query);
