@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/chester1000/google-search-cli.git"
+    "url": "git@github.com:meeDamian/google-search-cli.git"
   },
   "keywords": [
     "google",
@@ -32,9 +32,9 @@
   "author": "Damian Mee <mee.damian@gmail.com> (https://meedamian.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chester1000/google-search-cli/issues"
+    "url": "https://github.com/meeDamian/google-search-cli/issues"
   },
-  "homepage": "https://github.com/chester1000/google-search-cli#readme",
+  "homepage": "https://github.com/meeDamian/google-search-cli#readme",
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
