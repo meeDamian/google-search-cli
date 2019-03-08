@@ -1,4 +1,4 @@
-#!/usr/bin/env node --harmony_rest_parameters
+#!/usr/bin/env node
 
 'use strict';
 
@@ -9,4 +9,6 @@ if (require.main === module) {
 	process.exit();
 }
 
-module.exports = exports = (...query) => google(query);
+module.exports = exports = function () {
+	google.apply(null, arguments);
+};
